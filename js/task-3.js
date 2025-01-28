@@ -11,7 +11,7 @@ const profile = {
   },
 
   getInfo: function () {
-    return `${this.username} has ${this.playTime} active hours!`; // Використовуємо this для доступу до властивостей
+    return `${this.username} has ${this.playTime} active hours!`;
   },
 };
 
